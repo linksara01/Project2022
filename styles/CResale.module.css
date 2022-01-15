@@ -1,0 +1,41 @@
+.container{
+    padding: 50px;
+    display: flex;
+}   
+
+.item{
+    flex: 1;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 20px;
+    text-align:left;
+
+}
+.prices{
+    text-align:center;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    width: 40px;
+    
+}
+
+.button:first-child{
+    background-color: teal;
+    margin-right: 10px;
+    width: 80px;
+    height: 40px;
+}
+.button:last-child{
+    background-color: crimson;
+    margin-right: 10px;
+    width: 80px;
+    height: 40px;
+}
